@@ -1,0 +1,169 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde",
+  "description": "Prototipo navigabile per registrare, filtrare e monitorare richieste di manutenzione del verde pubblico, organizzate per priorità e quartiere.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Quadro sintetico delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste totali",
+          "value": "18"
+        },
+        {
+          "label": "Da valutare",
+          "value": "5"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "Quartieri coinvolti",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "Alta",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Da assegnare",
+          "12/06/2026"
+        ],
+        [
+          "Media",
+          "Vela",
+          "Parco dei Sassi Blu",
+          "Riparazione irrigazione",
+          "In lavorazione",
+          "11/06/2026"
+        ],
+        [
+          "Bassa",
+          "Lumo",
+          "Viale dei Soffi",
+          "Raccolta ramaglie",
+          "Conclusa",
+          "10/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile delle segnalazioni di manutenzione, con priorità, quartiere e stato.",
+      "metrics": [
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "In attesa",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Stato",
+        "Data segnalazione",
+        "Note operative"
+      ],
+      "rows": [
+        [
+          "Alta",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Da assegnare",
+          "12/06/2026",
+          "Verificare i rami sul vialetto"
+        ],
+        [
+          "Media",
+          "Vela",
+          "Parco dei Sassi Blu",
+          "Riparazione irrigazione",
+          "In lavorazione",
+          "11/06/2026",
+          "Controllare la valvola nord"
+        ],
+        [
+          "Bassa",
+          "Lumo",
+          "Viale dei Soffi",
+          "Raccolta ramaglie",
+          "Conclusa",
+          "10/06/2026",
+          "Area ripulita"
+        ],
+        [
+          "Alta",
+          "Timo",
+          "Bosco delle Clessidre",
+          "Rimozione ramo caduto",
+          "In lavorazione",
+          "09/06/2026",
+          "Transito temporaneamente deviato"
+        ],
+        [
+          "Media",
+          "Nubi",
+          "Piazza dei Petali",
+          "Ripristino aiuola",
+          "In attesa",
+          "08/06/2026",
+          "Pianificare il reintegro"
+        ],
+        [
+          "Bassa",
+          "Vela",
+          "Giardino delle Maree",
+          "Sfalcio prato",
+          "Conclusa",
+          "07/06/2026",
+          "Intervento completato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una segnalazione con i dettagli necessari per valutarla e assegnare l’intervento.",
+      "metrics": [],
+      "columns": [
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [],
+      "form": [
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Stato",
+        "Data segnalazione"
+      ]
+    }
+  ]
+}
